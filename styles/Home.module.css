@@ -1,0 +1,124 @@
+
+  .searchInput {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 80%;
+}
+
+.searchInput > input {
+    flex: 1;
+    padding: 10px 20px;
+    font-size: medium;
+    border: none;
+}
+
+.searchInput > input:focus {
+    outline-width: 0;
+}
+
+.searchInputIcon {
+    color: gray;
+}
+
+#page1{
+    display: flex;
+    height: calc( 12vh - 15px);
+
+}
+
+#sideBar1{
+    width: 14rem;
+    background: white;
+}
+
+#content1{
+    background: #3F0E40    ;
+    flex: 1 0 auto;
+}
+#content1 h2{
+    padding-left: 5vw;
+    color: white;
+}
+  
+  #page {
+    display: flex;
+    height: calc( 200vh - 30px);
+  }
+  
+  #sideBar {
+    width: 14rem;
+    background: white;
+  }
+
+  .sidebarDiv {
+      padding-top: 4%;
+      padding-bottom: 4%;
+  }
+  
+  
+  #content {
+    background: rgb(245, 245, 248);
+    flex: 1 0 auto;
+  }
+
+
+  .topnav {
+    overflow: hidden;
+  
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+  }
+  
+  .contentBtn{
+      background: rgb(70, 3, 70);
+      border: none;
+      border-radius: 8px;
+      color: white;
+      padding: 10px 25px;
+  }
+  
+  .topnav .search-container {
+    float: right;
+  }
+  
+  .topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    border-radius: 7px;
+
+  }
+
+  .topnav input[type=text]::placeholder{
+      text-align: right;
+  }
+  
+  
+  
+  
+  @media screen and (max-width: 600px) {
+    .topnav .search-container {
+      float: none;
+    }
+    .topnav a, .topnav input[type=text], .topnav .search-container button {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;  
+    }
+  }
+
+
